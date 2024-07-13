@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SECRET</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Hey there!</h1>
+        <p>I have something to ask you...</p>
+        <button id="askButton">Reveal</button>
+        <p id="message" class="hidden"></p>
+        <div id="responseButtons" class="hidden">
+            <button id="yesButton" class="response">Yes</button>
+            <button id="noButton" class="response">No</button>
+        </div>
+    </div>
+    <img src="hello_kitty.png" alt="Hello Kitty" class="hello-kitty">
+    <audio id="buttonSound" src="button_click.mp3"></audio>
+    <audio id="messageSound" src="message_appear.mp3"></audio>
+    <audio id="backgroundMusic" src="background_music.mp3" loop></audio>
+    <audio id="yesMusic" src="yes_music.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
