@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Im Sorry</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #fff7f8;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        h1 {
+            color: #ff69b4;
+        }
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #ff85c1;
+        }
+        #rose-gif {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Im sorry for today im not a goodboyfriend i would try my best to be perfect so i dont ever see this sadness ever in my life on your face and its only your smile and laughter</h1>
+    <img src="https://i.pinimg.com/originals/b3/ee/1c/b3ee1ca729639b311219f6c2f8cbbb5e.gif" alt="Cute Photo">
+    <button id="show-gif-btn">I love You Please Forgive Me</button>
+    <img id="rose-gif" src="https://i.pinimg.com/originals/23/6e/dd/236edd320f07f4fb99a823ae19ef7c49.gif" alt="Cute Rose GIF">
+    <audio id="show-gif-btn" src="button_click.mp3"></audio>
+    <script>
+        document.getElementById('show-gif-btn').addEventListener('click', function() {
+            document.getElementById('rose-gif').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
